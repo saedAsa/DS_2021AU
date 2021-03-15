@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @author asalysaed, Ariel University
  *
  */
-public class BasicSorts {
+public class MergeSortAlgo {
 	// suppose that arr is already sorted
 	public static int BinarySearch(int[] arr, int k) {
 		int low, mid, high;
