@@ -6,7 +6,6 @@ public class DLL {
 	public DLL() {
 		head=null;
 		size=0;
-		
 	}
 	public void Add(int data) {
 		Node new_Node=new Node(data);
