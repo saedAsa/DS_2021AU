@@ -1,7 +1,12 @@
 package Lecture3;
 
 import java.util.Arrays;
-
+/**
+ * DS 2021 lecture codes v 0.1
+ * 
+ * @author asalysaed, Ariel University
+ *
+ */
 public class QuickSortAlgo {
 
 	public static void QuickSort(int[]arr) {
