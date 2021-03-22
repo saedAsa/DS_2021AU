@@ -1,6 +1,7 @@
 package Lecture2;
 
 import java.util.Arrays;
+import java.util.Collections;
 
 /**
  * DS 2021 lecture codes v 0.1
@@ -97,43 +98,46 @@ public class MergeSortAlgo {
 		}
 	}
 
+
 	
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] arr = { 4, 8, 15, 23, 38, 49, 65, 70, 80 };
-		int k = -9;
-		System.out.println(BinarySearch(arr, k));
-		System.out.println(BinarySearch(arr, k, 0, arr.length));
-		int[] A = { 1, 2, 4, 5, 8, 9 };
-		int[] B = { 0, 3, 6, 7, 10 };
-		System.out.println(Arrays.toString(Merge(A, B)));
-		int n = 20;
-		int[] arr2 = new int[n];
-		for (int i = 0; i < n; i++) {
-			if (Math.random() > 0.3) {
-				arr2[i] = (int) (Math.random() * n);
-			} else
-				arr2[i] = -1 * (int) (Math.random() * n);
-		}
-		System.out.println(Arrays.toString(arr2));
-		boolean flag=true;
-		for(int i=0;i<arr2.length-1;i++) {
-			if(arr2[i]>arr2[i+1]) {
-				flag=false;
-			}
-		}
-		System.out.println("The array arr2 is "+(flag?" sorted.":" not sorted."));
-		MergeSort(arr2);
-		 flag=true;
-		for(int i=0;i<arr2.length-1;i++) {
-			if(arr2[i]>arr2[i+1]) {
-				flag=false;
-			}
-		}
-		System.out.println(Arrays.toString(arr2));
-		System.out.println("The array arr2 is "+(flag?" sorted.":" not sorted."));
 		
+		
+//		int[] arr = { 4, 8, 15, 23, 38, 49, 65, 70, 80 };
+//		int k = -9;
+//		System.out.println(BinarySearch(arr, k));
+//		System.out.println(BinarySearch(arr, k, 0, arr.length));
+//		int[] A = { 1, 2, 4, 5, 8, 9 };
+//		int[] B = { 0, 3, 6, 7, 10 };
+//		System.out.println(Arrays.toString(Merge(A, B)));
+//		int n = 20;
+//		int[] arr2 = new int[n];
+//		for (int i = 0; i < n; i++) {
+//			if (Math.random() > 0.3) {
+//				arr2[i] = (int) (Math.random() * n);
+//			} else
+//				arr2[i] = -1 * (int) (Math.random() * n);
+//		}
+//		System.out.println(Arrays.toString(arr2));
+//		boolean flag=true;
+//		for(int i=0;i<arr2.length-1;i++) {
+//			if(arr2[i]>arr2[i+1]) {
+//				flag=false;
+//			}
+//		}
+//		System.out.println("The array arr2 is "+(flag?" sorted.":" not sorted."));
+//		MergeSort(arr2);
+//		 flag=true;
+//		for(int i=0;i<arr2.length-1;i++) {
+//			if(arr2[i]>arr2[i+1]) {
+//				flag=false;
+//			}
+//		}
+//		System.out.println(Arrays.toString(arr2));
+//		System.out.println("The array arr2 is "+(flag?" sorted.":" not sorted."));
+//		
 	}
 
 }
