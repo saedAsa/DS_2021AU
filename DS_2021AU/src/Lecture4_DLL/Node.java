@@ -2,7 +2,7 @@ package Lecture4_DLL;
 /**
  * DS 2021 lecture codes v 0.1
  *  Doubly Linked List Node
- * @author asalysaed, Ariel University
+ * @author asalysaed, Ariel University 
  *
  */
 public class Node {

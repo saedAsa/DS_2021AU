@@ -1,7 +1,7 @@
 package Lecture4;
 /**
  * DS 2021 lecture codes v 0.1
- *  Single Linked List  Node
+ *  Single Linked List  Node 
  * @author asalysaed, Ariel University
  *
  */

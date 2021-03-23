@@ -5,7 +5,7 @@ import java.util.Collections;
 
 /**
  * DS 2021 lecture codes v 0.1
- *  Merge Sort Algorithm + Binary Search
+ *  Merge Sort Algorithm + Binary Search 
  * @author asalysaed, Ariel University
  *
  */

@@ -1,7 +1,7 @@
 package Lecture4_SortedLL;
 /**
  * DS 2021 lecture codes v 0.1
- *  Sorted LinkedList Node
+ *  Sorted LinkedList Node 
  * @author asalysaed, Ariel University
  *
  */

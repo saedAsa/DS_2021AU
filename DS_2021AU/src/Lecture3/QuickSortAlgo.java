@@ -3,7 +3,7 @@ package Lecture3;
 import java.util.Arrays;
 /**
  * DS 2021 lecture codes v 0.1
- *  Lecture 3 - Quick Sort Algorithm
+ *  Lecture 3 - Quick Sort Algorithm 
  * @author asalysaed, Ariel University
  *
  */
