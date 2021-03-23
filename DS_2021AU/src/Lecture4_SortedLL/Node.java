@@ -1,5 +1,10 @@
 package Lecture4_SortedLL;
-
+/**
+ * DS 2021 lecture codes v 0.1
+ *  Sorted Linked List
+ * @author asalysaed, Ariel University
+ *
+ */
 public class Node {
 	private double data;
 	private Node next;

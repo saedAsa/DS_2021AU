@@ -1,5 +1,10 @@
 package Lecture4_SortedLL;
-
+/**
+ * DS 2021 lecture codes v 0.1
+ *  Sorted Linked List Node
+ * @author asalysaed, Ariel University
+ *
+ */
 public class SortedLL {
 	Node head;
 	int size;
