@@ -1,5 +1,10 @@
 package Lecture4_DLL;
-
+/**
+ * DS 2021 lecture codes v 0.1
+ *  Doubly Linked List
+ * @author asalysaed, Ariel University
+ *
+ */
 public class DLL {
 	Node head;
 	int size;
