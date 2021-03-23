@@ -1,5 +1,10 @@
 package Lecture4;
-
+/**
+ * DS 2021 lecture codes v 0.1
+ *  Single Linked List Test
+ * @author asalysaed, Ariel University
+ *
+ */
 public class LLTest {
 
 	public static void main(String[] args) {

@@ -1,5 +1,10 @@
 package Lecture4;
-
+/**
+ * DS 2021 lecture codes v 0.1
+ *  Single Linked List
+ * @author asalysaed, Ariel University
+ *
+ */
 public class LinkedList {
 	public Node head, tail;
 	int size;
