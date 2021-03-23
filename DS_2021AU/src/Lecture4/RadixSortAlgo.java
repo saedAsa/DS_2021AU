@@ -1,7 +1,12 @@
 package Lecture4;
 
 import java.util.Arrays;
-
+/**
+ * DS 2021 lecture codes v 0.1
+ *  Radix Sort
+ * @author asalysaed, Ariel University
+ *
+ */
 public class RadixSortAlgo {
 	
 	public static void reSort(int[] arr, LinkedList[] buckets) {
