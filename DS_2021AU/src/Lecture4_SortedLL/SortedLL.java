@@ -6,7 +6,7 @@ package Lecture4_SortedLL;
  *
  */
 public class SortedLL {
-	Node head;
+	public Node head;
 	int size;
 
 	public SortedLL() {
