@@ -1,5 +1,10 @@
 package Lecture5;
-
+/**
+ * DS 2021 lecture codes v 0.1
+ *  Simple Queue test
+ * @author asalysaed, Ariel University
+ *
+ */
 public class QueueTest {
 
 	public static void main(String[] args) {

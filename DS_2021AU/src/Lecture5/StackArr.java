@@ -1,7 +1,11 @@
 package Lecture5;
 
-import javax.sql.rowset.spi.TransactionalWriter;
-
+/**
+ * DS 2021 lecture codes v 0.1
+ *  Stack using array
+ * @author asalysaed, Ariel University
+ *
+ */
 public class StackArr {
 	int[] Stack;
 	int topIndx;// index of last element added

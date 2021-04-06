@@ -1,5 +1,10 @@
 package Lecture5;
-
+/**
+ * DS 2021 lecture codes v 0.1
+ *  Stack using linked list (node)
+ * @author asalysaed, Ariel University
+ *
+ */
 public class StackLL<T> {
 	Node<T> top;
 	int size;

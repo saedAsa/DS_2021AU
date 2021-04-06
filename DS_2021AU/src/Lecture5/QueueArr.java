@@ -1,5 +1,10 @@
 package Lecture5;
-
+/**
+ * DS 2021 lecture codes v 0.1
+ *  Queue using array
+ * @author asalysaed, Ariel University
+ *
+ */
 public class QueueArr {
 	static int errorVal = Integer.MAX_VALUE;
 	int[] Queue;
