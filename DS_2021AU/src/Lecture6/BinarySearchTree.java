@@ -93,4 +93,56 @@ public class BinarySearchTree {
 		return p;
 	}
 	
+	public boolean Remove(int data) {
+		BSTNOde v=Search(data);
+		if(v==null)
+			return false;
+		BSTNOde father=getFather(data);
+		if(v.left==null&&v.right==null) {//v is leaf
+			if(father==null) {
+				root=null;
+				size=0;
+				return true;
+			}
+			if(father.left==v) {
+				father.left=null;
+				size--;
+				return true;
+			}
+//			else {
+				father.right=null;
+				size--;
+				return true;
+//			}
+		}
+		
+		if((v.left!=null)&&(v.right==null)) {
+			if(father.right==v) {
+				father.right=v.left;
+				size--;
+				return true;
+			}else {
+				father.left=v.left;
+				size--;
+				return true;
+			}
+		}else if((v.left==null)&&(v.right!=null)) {
+			if(father.right==v) {
+				father.right=v.right;
+				size--;
+				return true;
+			}
+			else {
+				father.left=v.right;
+				size--;
+				return true;
+			}
+		}
+		BSTNOde Min=getMin(v.right);
+		int MinVal=Min.data;	
+		Remove(MinVal);
+		v.data=MinVal;
+		return true;
+	}
+
 }
