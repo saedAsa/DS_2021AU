@@ -5,11 +5,11 @@ package Lecture6;
  * @author asalysaed, Ariel University
  *
  */
-public class BSTNOde {
+public class BSTNode {
 	int data;
-	BSTNOde right, left;
+	BSTNode right, left;
 
-	public BSTNOde(int data) {
+	public BSTNode(int data) {
 		this.data = data;
 		right = left = null;
 	}
