@@ -63,6 +63,6 @@ public class Test {
 		t.plotTree();
 		boolean bal=isBalancedTree(t.root);
 		System.out.println("the tree is " +((bal==false)?"not ":"")+"balaced");
-		System.out.println("The average ratio: log(n)/height: " + getAvg(100000));
+		System.out.println("The average ratio: height/log(n): " + getAvg(100000));
 	}
 }
