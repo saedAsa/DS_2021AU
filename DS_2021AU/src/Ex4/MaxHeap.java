@@ -103,4 +103,9 @@ public class MaxHeap {
 		// Update your code below
 		return null;
 	}
+
+	public static int[] getMinHeap(MaxHeap h) {
+		// Update your code below
+		return null;
+	}
 }
